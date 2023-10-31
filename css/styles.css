@@ -1,5 +1,6 @@
 :root {
-    --primary: #4D87D4A;
+
+    --primary: #D87D4A;
     --secondary: #101010;
     --tritary: #F1F1F1;
     --quaternary: #FAFAFA;
@@ -62,6 +63,57 @@ header {
     background-color: transparent;
     border:none;
     cursor: pointer;
+}
+.main-content {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    width: 328px;
+    height: 290px;
+    margin: 0 auto;
+    position: absolute;
+    top: 198px;
+    left: 23px;
+}
+h1 {
+
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 40px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 24px;
+    margin-top: 16px;
+}
+.p-top {
+    color: rgba(255,255,255, 50%);
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    margin:0;
+}
+.p-bottom {
+    color: rgba(255,255,255, 75%);
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-bottom:28px;
+    margin-top:0;
+
+}
+.see-product-btn {
+    width: 160px;
+    height: 48px;
+    background-color: var(--primary);
+    color: white;
+    font-weight: 700;
+    font-size: 13px;
+    border:none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Small (sm) */
